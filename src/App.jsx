@@ -58,10 +58,10 @@ const Navbar = () => {
     </nav>
   );
 };
-
 const Hero = () => {
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden pt-20 bg-[#050816]">
+    // JUST ADD id="about" RIGHT HERE:
+    <section id="about" className="relative min-h-screen flex items-center justify-center overflow-hidden pt-20 bg-[#050816]">
       <div className="absolute inset-0 z-0">
         <div className="absolute top-1/4 -left-1/4 w-96 h-96 bg-purple-600/20 rounded-full blur-[120px]" />
         <div className="absolute bottom-1/4 -right-1/4 w-96 h-96 bg-blue-500/20 rounded-full blur-[120px]" />
